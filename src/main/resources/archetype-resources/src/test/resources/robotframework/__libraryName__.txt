@@ -1,0 +1,17 @@
+*** Settings ***
+Library           ${libraryName}
+
+*** Test Cases ***
+Echo
+    ${string}    Echo    Blub
+    Should Be Equal    ${string}    Blub
+    
+Echo With Default
+    ${string}    Echo With Default
+    Should Be Equal    ${string}    Hello
+    
+Echo With Overridden Default
+    ${string}    Echo With Default    Blub
+    Should Be Equal    ${string}    Blub
+    
+    
