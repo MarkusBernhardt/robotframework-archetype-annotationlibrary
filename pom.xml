@@ -9,7 +9,7 @@
 
 	<groupId>com.github.markusbernhardt</groupId>
 	<artifactId>robotframework-archetype-annotationlibrary</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<packaging>maven-archetype</packaging>
 
 	<name>Archetype - robotframework-archetype-annotationlibrary</name>
