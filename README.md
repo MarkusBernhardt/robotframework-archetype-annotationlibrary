@@ -13,6 +13,7 @@ Usage
 $ mvn -B archetype:generate \
       -DarchetypeGroupId=com.github.markusbernhardt \
       -DarchetypeArtifactId=robotframework-archetype-annotationlibrary \
+      -DarchetypeVersion=1.0.0 \
       -DgroupId=com.yourcompany.yourdepartment \
       -DartifactId=robotframework-yourlibraryname \
       -Dpackage=com.yourcompany.yourdepartment.robotframework.yourlibraryname \
